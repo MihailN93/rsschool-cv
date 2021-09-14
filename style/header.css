@@ -1,0 +1,37 @@
+/* Стили для блока навигации и шапки */
+
+.header {
+    margin-bottom: 50px;
+}
+
+.header__navigation__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navigation {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #000;
+}
+
+.header__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 47px;
+}
+
+.header__description-me {
+    font-size: 47px;
+    margin: 0;
+}
+
+.header__description-speciality {
+    margin: 0;
+}
+
+.header__img > img {
+    width: 100%;
+    margin-top: 30px;
+}
