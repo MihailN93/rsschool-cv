@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Потребует для адаптива страницы-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Подключаем шрифты к странице-->
+    <link href="https://fonts.googleapis.com/css2?
+    family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"/>
+    <!--Подключаем стили-->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+    <title>CV</title>
+  </head>
+
+  <body>
+    <h1 class="visually-hidden">Novitskiy Mihail CV</h1>
+    <header class="header">
+      <div class="container">
+        <nav class="header__navigation">
+          <ul class="header__navigation__menu">
+            <li class="headre_navigation_list">
+              <a href="#top">Home</a>
+            </li>
+            <li class="headre__navigation__list">
+              <a href="#about-me">About me</a>
+            </li>
+            <li class="headre__navigation__list">
+              <a href="#Skills">Skills</a>
+            </li>
+            <li class="headre__navigation__list">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="headre__navigation__list">
+              <a href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__description">
+          <h2 class="header__description-me">
+            Mihail <br />
+            Novitskiy
+          </h2>
+          <p class="header__description-speciality">
+            Project manager <br />
+            28 years old, Moscow
+          </p>
+          <div class="header__description-eng">eng</div>
+        </div>
+        <div class="header__img">
+          <img src="img/me.png" alt="me" />
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <article class="main__about">
+        <div class="container">
+          <div class="main__about-me" id="about-me">
+            <h2 class="main__about-h">About me</h2>
+            <p>
+              В мире Digital уже более двух лет. Начинал карьеру в агентстве ООО
+              “12” где был project-manager. Вел проекты для таких клиентов как
+              Bonduelle, Adrenalin, Motul. Оказывал поддержку стартапа “Эффект
+              Кесслера” - это первый фильм в виртуальной реальности в РФ.
+            </p>
+            <p>
+              Дальнейший мой опыт продолжился в компании Roden-Media, где был
+              руководитель спецпроектов. Создание и реализация нестандартного
+              способа рекламы продукта и брендов позволили продвинуться
+              творчески и технически.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="main__skills">
+        <div class="container">
+          <div class="main__skills__title">
+            <h2 class="main__about-h" id="Skills">Skills</h2>
+            <p>I work in such programs as</p>
+          </div>
+          <nav>
+            <ul class="main__skills__soft">
+              <li>Jira</li>
+              <li>Confluense</li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+            </ul>
+          </nav>
+        </div>
+      </article>
+      <article class="main__portfolio">
+        <div class="container">
+          <div class="portfolio__title">
+            <h2 class="main__about-h" id="portfolio">Portfolio</h2>
+            <nav>
+              <ul>
+                <li class="main__portfolio__list">
+                  <img
+                    class="main__portfolio-img"
+                    src="img/cars.png"
+                    alt="cars vtb leasing"
+                  />
+
+                  <a href="https://vtb-leasing.ru/">VTB Leasing</a>
+                </li>
+                <li class="main__portfolio__list">
+                  <img
+                    class="main__portfolio-img"
+                    src="img/wwf.png"
+                    alt="cars vtb leasing"
+                  />
+
+                  <a href="https://peoplefornature.ru/">Peoplefornature</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer__title">
+          <h2 class="main__about-h" id="contacts">Contacts</h2>
+          <p>Want to know more or just chat? You are welcome!</p>
+          <a class="call" href="tel:+74951234567">Call me</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
