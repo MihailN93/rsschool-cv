@@ -1,0 +1,71 @@
+
+.main__about {
+    background-color: #f6f6f6f6;
+}
+
+.main__about-me {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.main__about-h {
+    padding-top: 50px;
+}
+
+.main__about-me > p {
+    width: 50%;
+    font-weight: 400;
+}
+
+
+.main__skills__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__skills__soft {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+
+.main__portfolio {
+    background-color: #f6f6f6f6;
+}
+
+.portfolio__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.main__portfolio__list {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main__portfolio-img {
+    width: 100%;
+}
+
+.main__portfolio__list > a {
+    color: black;
+    padding-top: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+
+.main__portfolio__list > a:hover {
+    color: #828282;
+}
