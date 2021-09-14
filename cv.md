@@ -2,13 +2,13 @@
 
 ## Contacts
 * Locations: Moscow
-* email: m9252055546@gmail.com
-* fb: Mihail Novitskiy
+* Email: m9252055546@gmail.com
+* FaceBook: Mihail Novitskiy
 
-## Опыт
-* более 3х лет работы в диджитал компаниях в роди проект менеджера
+## About me
+I have been working as a project manager for over 3 years. I want to learn to design and develop in this direction
 
-## Инструменты которыми владею:
-* Jira 
-* Figma
-* Photoshop
+## Skiils
+* HTML (basic)
+* CSS (basic)
+
