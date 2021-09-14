@@ -1,1 +1,1 @@
-https://MihailN93.github.io/rsschool-cv/cv
+https://MihailN93.github.io/rsschool-cv/index.html
